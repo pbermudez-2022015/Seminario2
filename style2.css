@@ -1,51 +1,10 @@
 /* styles.css */
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f9fc;
-    color: #333;
-}
-
-header {
-    background: #fc8617;
-    color: #fff;
-    padding: 2.5rem 0;
+#tituloBullyng {
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    color: white;
 }
 
-nav {
-    background: #b1b8be;
-    padding: 1rem 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
-    transition: background 0.3s;
-}
-
-nav ul li a:hover {
-    background: #afb0b1;
-    border-radius: 5px;
-}
 
 main {
     padding: 2rem;
