@@ -1,0 +1,355 @@
+:root {
+    --primary-color: #ff833e;
+    --primary-color-dark: #db6f35;
+    --text-dark: #333333;
+    --text-light: #767268;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Bebas Neue", sans-serif;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+    outline: none;
+    border: none;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.bodyHomePage {
+    background-color: #333333;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content img {
+  height: 60px; 
+}
+
+.header-content nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.header-content nav a:hover {
+  color: #f28c28;
+}
+
+.header__container {
+    height: 100vh;
+    padding-inline: 6rem;
+    display: flex;
+    flex-direction: row-reverse;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+}
+
+.header__image {
+    width: 50%;
+    margin-inline: auto;
+    display: flex;
+}
+
+.header__content {
+    width: 50%;
+    overflow: hidden;
+    text-align: left;
+}
+
+.header__image img {
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+}
+
+.header__content h2 {
+    position: relative;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.header__content h2::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translate(calc(-100% - 1rem), -50%);
+    height: 2px;
+    width: 150%;
+    background-color: var(--white);
+}
+
+.header__content h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.h1__span-1 {
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.h1__span-2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.header__content p {
+    margin-bottom: 2rem;
+    color: var(--white);
+    text-align: left;
+}
+
+.header__content .btn {
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.header__content .btn:hover {
+    color: var(--primary-color);
+    background-color: var(--white);
+}
+
+.volunteers {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+}
+
+.volunteers h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.volunteer-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.option {
+    text-align: center;
+    margin: 10px;
+}
+
+.option img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.option p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.map-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--background-map);
+}
+
+.map-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.testimonials-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.impact-stats {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e9ecef;
+}
+
+.impact-stats h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+    margin: 10px;
+}
+
+.stat h3 {
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+.stat p {
+    font-size: 18px;
+    color: var(--text-dark);
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.newsletter h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--text-light);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Merriweather", serif;
+    outline: none;
+    border: none;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.leave-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.leave-testimonial h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.testimonial-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-form textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--text-light);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.testimonial-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Merriweather", serif;
+    outline: none;
+    border: none;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.testimonial-form button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.testimonial-form a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.testimonial-form a:hover {
+    text-decoration: underline;
+}
